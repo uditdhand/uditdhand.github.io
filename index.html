@@ -13,6 +13,21 @@
             line-height: 1.6;
             color: #333; /* Darker font for readability */
         }
+        nav {
+            background-color: #4CAF50; /* Same as body for a continuous look */
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav a {
+            color: #333; /* Black for the text */
+            margin: 0 15px; /* Spacing between nav items */
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+        nav a:hover {
+            color: #a67c52; /* Muted gold/tan for hover */
+        }
         header {
             background-color: #4CAF50; /* Green header */
             color: white;
@@ -47,6 +62,12 @@
     </style>
 </head>
 <body>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+    </nav>
 
     <header>
         <h1>Udit Dhand</h1>
